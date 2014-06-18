@@ -1,0 +1,227 @@
+Changelog Alpha 0.2:
+====================
+
+ - Added basic item rebalancing:
+	*  Stat items' (+3, +6, +10, +25, and derived) power increased by 20-40%
+	* Defensive items' (armor, HP, evasion) power increased by 30-50%
+	* HP and mana regen items (includes consumables)' power increased by 30-40%
+	* Damage items' power increased by 20-30%
+	* All atk and move speed values increased, but very slightly
+	* Item active effects and orbs buffed slightly
+	* Cheaper items always have smaller bonuses. High-end items had the highest power increase.
+	* Rapier 300 -> 500 dmg
+	* Cheese 1 -> 3 charges
+	* Diffusal Blade 8 -> 20 charges
+	* Bloodstone initial charges 8 -> 12
+	* Observer Wards cast range increased to 2000, count from 2 -> 3, restock timer from 300 -> 120 seconds
+	* Sentry wards cast range unchanged (200), but true sight radius is now 2000. Count 2 -> 3
+
+ - Nerfed Necrolyte (everything toned down)
+ - Nerfed Enigma (Eidolon amount, duration, and hits to multiplicate)
+ - Nerfed Phantom Lancer (Illusion amount stays the same, but juxtapose and doppelwalk illusions are weaker and take more damage)
+ - Nerfed Venomancer (slightly decreased damage and slow from Poison Gale and Venomous sting; Big decrease on ult damage)
+ - Slightly Nerfed Rhasta's wards' damage
+ - Nerfed razor's static link drain and ultimate strike frequency
+ - Slightly decreased time lock and backtrack's proc chances (40% -> 36% at last level)
+ - Slightly decreased Chronosphere's duration (6 7 8 -> 5 6 7, aghs chronosphere 7 9 11 -> 7 8.5 10)
+
+ - Fixed Faceless Void's Time Walk range (700 900 1100 1300 -> 1000 1200 1400 1600)
+ - Fixed Beastmaster's pets' duration and summoning cooldown
+
+ - Added Pugna!
+	* Nether blast cooldown scales (5.5 5.5 5.5 5.5 -> 5.5 5.0 4.5 4.0), normal nuke dmg scaling (120 200 280 360), cast range and blast area slightly increase with levels.
+	* Decrepify's cast range (700 -> 750 800 850 900) and bonus damage (50% -> 50% 60% 70% 80%) scale. Bonus damage for allies and slow unchanged (40%). Duration from 2.0 2.5 3.0 3.5 to 4.0.
+	* Nether Ward's effective range scales (1600 -> 1600 1800 2000 2200). Mana flare dmg multiplier increased slightly (1.0 1.25 1.5 1.75 -> 1.5 1.8 2.1 2.4). mana regen penalty increased to -3 -6 -9 -12. Duration unchanged (30s) but cooldown now scales (30 24 18 12s), allowing pugna to have more than 1 ward without refresher (if the older ward is not killed).
+	* Life Drain's range and break range unchanged. Damage increased by ~20%.
+ - Added Phantom Assassin!
+	* Dagger`s duration inreased by 1 second (2/3/4/5), cooldown decreased by 1 second (6 -> 5); move slow slightly decreased (50% -> 60%); manacost decreased (20/15/10/5); Damage slightly increased (80 140 200 260).
+	* Blink`s cooldown decreased (14 11 8 5 -> 12 9 6 3). Atk speed bonus (130/160/190/220) and number of bonus attacks (3/4/5/6) now scale.
+	* Blur increased to 25%/40%/55%/70%
+	* Coup de Grace damage multiplier increased to 3x/4.5x/6x, and chance slightly increased to 15%/18%/21%
+ - Added Templar Assassin!
+	* Refraction`s damage/damage prevention instances increased (4/6/8/10, 25/50/75/100 bonus dmg). Cooldown now scales (17/15/13/11s)
+	* Meld`s damage (80/140/200/260) and armor reduction (-5/-6/-11/-14) increased. Cooldown no scales (7/6/5/4s)
+	* Psi blades` bonus range (140/220/300/380) is much higher, as well as the spill range and width.
+	* Psi traps` maximum number, cast time, fade time, slow aoe and slow potency have all been upgraded.
+ - Added Viper!
+	* Viper is now even more of a little fucking piece of flying green shit than before.
+ - Added Luna!
+	* Lucent Beam damage slightly increased (90/170/250/330); mana cost is now fixed (90), and cooldown scales (6.0/5.5/5.0/4.5). Stun duration scales slightly (0.6/0.7/0.8/0.9)
+	* Moon Glaive`s search range, number of bounces, and damage reduction per bounce all buffed.
+	* Lunar Blessing`s bonus damage slightly buffed (20/30/40/50). Night vision now scales with levels.
+	* Eclipse`s beam count increased (6/10/14), and single target beam count limit removed.
+
+Changelog Alpha 0.3:
+====================
+
+ - Windrunner: reduced powershot bonus damage for going through additional units (10%/14%/18%/22% -> 8%/10%/12%/14%)
+ - Tiny: Reduced aghanim structure bonus dmg 100% -> 50%, grow dmg 100/200/300 -> 70/140/210
+ - Shadowfiend: reduced soul cap (80 -> 60), soul bonus dmg (3 -> 2), and Requiem of Souls area 1000/1400/1800 -> 1000/1200/1400
+ - Shadowfiend: reverted razes` sizes
+ - Luna: Improved Lunar blessing damage, improved autoattack range to 500
+ - Sniper: Headshot proc chance from 60% to 40%
+
+ - Added Dragon Knight!
+	* Innate: DK`s base magic resistance is 40%
+	* Breathe fire`s damage and AOE increased slightly, also scaling with levels in the skill.
+	* Dragon tail`s stun increased by 1 second at all levels. Damage slightly increased. The cooldown also scales.
+	* Dragon`s blood regen and armor values greatly increased.
+	* Elder dragon form`s bonus speed, splash aoe, corrosive breath damage and frost breath slow have all been increased. Cooldown now scales, and matches the duration on the last level.
+ - Added Dazzle!
+	* Added a scaling stun (0.8/1.2/1.6/2.0) to Poison Touch`s 3rd tick at all levels. Increased damage and slow, and reduced cooldown.
+	* Shallow Grave`s Range greatly increased; duration and cast point now scale. Cooldown slightly reduced.
+	* Shadow wave`s searching range, power, and number of targets increased. Mana cost is now fixed at 80.
+	* Weave`s aoe and armor changing speed greatly increased. Cast range is now global.
+ - Added Clockwerk!
+	* Battery Assault`s search range (slightly) and stun frequency (greatly) increased.
+	* Power cogs now fit more units inside, and shock the ones outside harder. Cogs take 3/4/5/6 hits to kill and last longer.
+	* Rocket flare costs less mana, flies faster, does slightly more damage, and has a shorter cooldown.
+	* Hookshot has greater range (global on lv3), and is easier to latch to units. Damage  and stun radius also increased.
+ - Added Leshrac!
+	* Split earth`s damage and aoe increased. Cast point, cooldown, stun duration, aoe and delay improve with level.
+	* Doubled diabolic edict`s explosion frequency; aoe is now 750
+	* Lightning Storm`s damage, jumo count and search range increased. Slow duration now scales (0.5/0.75/1.0/1.25s)
+	* Pulse nova`s aoe and damage are increased. Activation (greatly) and continuous use (slightly) mana costs reduced.
+ - Added Furion!
+	* Sprout has global cast range and costs a fixed 100 mana to cast
+	* Teleportation`s cast point and manacost scale with levels; cooldown is reduced to 30/24/18/12
+	* Force of Nature has global cast range and spawns one extra treant, as well as having a scaling cooldown. Treants are more powerful and resilient.
+	* Wrath of nature has only slightly improved damage, but can jump up to 20/28/36 times (25/35/45 with aghanim)
+ - Added Lifestealer!
+	* Rage`s duration is slightly longer, and the attack speed bonus is much stronger
+	* Feast`s damage is improved (4/5/6/7% -> 6/8/10/12%)
+	* Open Wounds`s slow and lifesteal effect are much stronger
+	* Infest`s cooldown now scales (60/45/30), and damage is increased
+ - Added Dark Seer!
+	* Vaccum`s cooldown is reduced by one!
+	* Dark seer`s armor is increased by one!
+	* GG Icefrog
+ - Added Clinkz!
+	* Strafe`s cooldown and duration improved. Attack speed now scales.
+	* Searing arrows` damage and manacost improved
+	* Ghost walk`s cooldown, duration, manacost and movespeed bonus are all improved
+	* Death pact cooldown now scales. Increased converted HP (a bit) and damage (a lot).
+ - Added Omniknight!
+	* Purification`s heal/damage increased slightly. Cast point, cooldown and damage radius now scale.
+	* Repel`s cooldown now scales significantly. Duration improved by 2 seconds. Cast range and cast point improved
+	* Degen aura`s slow potency and aoe improved
+	* Guardian angel`s duration, cast point, aoe, and HP regen effect increased
+ - Added Enchantress!
+	* Untouchable attack speed slow increased to 60/100/140/180
+	* Enchant`s slowing component increased. Cooldown decreased by 5 seconds. Enchanted creep duration is now 5 minutes.
+	* Nature`s attendants healing increased by 20%. Number of healing wisps increased to 4/8/12/16.
+	* Impetus damage improved to 25/40/55% of distance. Scepter range increase improved.
+ - Added Huskar!
+	* Inner Vitality`s base and attribute-dependent regen greatly increased
+	* Burning Spears` damage slightly increased. Duration now scales
+	* Berserker`s blood attack speed and magic resistance bonuses improved slightly
+	* Life Break`s self damage reduced, and dealt damage improved
+ - Added Nightstalker!
+	* Void`s damage increased. Cooldown, slow strength and night duration now scale
+	* Crippling Fear`s duration increased by 1 second, night miss chance increased. Cooldown now scales. Casting point improved
+	* Hunter in the night`s bonuses massively increased
+	* Darkness` cooldown is now the same as the duration at level 3. Night vision reduction now scales.
+ - Added Jakiro!
+	* Dual Breath`s damage slightly improved. Range and attack speed slow now scale
+	* Ice path`s range and damage increased. Stun time, cooldown and cast point now scale
+	* Liquid Fire`s attack speed slow and aoe hugely increased. Damage increased slightly.
+	* Macropyre`s range, damage and aoe all increased. 30 second duration (60 second on Aghs version)
+ - Added Broodmother!
+	* Spawn Spiderling spawns 2/3/5/7 spiderlings with increased armor and magic resistance. Spiderites spawned by those spiderlings are ranged
+	* Spin Web allows up to 4/8/14/20 webs. Movespeed bonus, fade time, hp regen, and web aoe are all improved
+	* Incapacitating bite`s slow and blind are improved
+	* Insatiable hunger`s damage bonus was greatly increased
+ - Added Bounty Hunter!
+	* Shuriken toss damage increased to 100/200/300/400. Manacost now a fixed 90, cooldown scales.
+	* Jinada: 10/8/6/4s cooldown 180/240/300/360% crit. Slow slightly increased.
+	* Wind walk: greatly increased duration, added a bit of damage, and reduced mana cost and cooldown. Fade time scales (improves)
+	* Track: Greatly increased the track cast range, bounty aoe, and the bounties themselves. Cooldown and manacost scale (improve)
+
+Changelog Alpha 0.4:
+====================
+
+    General changes    
+
+ - Roshan is now IMBA! He deals more damage and has some new tricks. His bounty was increased accordingly.
+ - The fountain is now IMBA and hits much harder, and from further away. In the future, it will also be destroyable.
+ - Towers and barracks are a bit stronger, in order to make breaching the base a harder. T1 towers have unchanged stats from normal dota, and each tier beyond that has increased stats.
+ - As part of the addition of Enchantress, Chen and Doom, all neutral creep abilities have been increased in power and/or utility. This includes the neutrals` auras.
+ - Each neutral camp`s main creep (except for the easy camps) will become increasingly stronger as the game progresses (same as Roshan).
+
+    Hero balancing    
+
+ - Rebalanced Lanaya`s Psi blades: longer range, smaller spill radius/distance
+ - Removed Lanaya`s Refraction cooldown scaling
+ - Slightly reduced Lanaya`s Meld strike armor reduction
+ - Removed Dark Seer`s Surge cast time scaling
+ - Decreased Morphling`s Morph Agi/Str rate (0.1 -> 0.16). Removed Morph manacost on last level.
+ - Increased Enchantress` base range, and decreased the agh scepter bonus range (final result is still 1000 range)
+ - Decreased Puck`s Illusory Orb`s range (now 3000 at all levels). Slightly nerfed cooldown (6 -> 7.5 at max level)
+
+    New heroes    
+
+ - Added Weaver!
+	* Improved attack point, base agility, and agility growth
+	* The Swarm: Increased amount, power, armor reduction, and attack frequency of bugs
+	* Shukuchi: slightly increased damage. Manacost now scales (zero at last level)
+	* Geminate attack: cooldown decreased (3/2/1/0)
+	* Time Lapse: Reduced cooldown (30/24/18)
+ - Added Batrider!
+	* Sticky Napalm: AOE slightly increased, cooldown greatly decreases with levels
+	* FLamebreak: Increased range, travel speed, aoe and knockback
+	* Firefly: slightly increased damage, greatly increased damage tick rate. AOE  and duration scale with levels
+	* Flaming Lasso: Increased duration, greatly increased break distance (it`s now possible to blink without breaking the lasso)
+ - Added Chen!
+	* Penitence: Slow and damage amp increased to 15/30/45/60%
+	* Test of Faith: Minimal damage is now always 1, maximum damage scales (200/400/600/800)
+	* Holy Persuasion: Max number of creeps to 1/3/6/10. HP bonus to 150/300/450/600
+	* Hand of God: Healing increased to 300/450/600
+ - Added Spectre!
+	* Spectral dagger: decreased manacost, increased damage, move speed bonus, path radius, speed, and grace period.
+	* Desolate: Increased damage, reduced hero search radius
+	* Dispersion: Increased minimum range and damage returned
+	* Haunt: Increased Illusion duration and outgoing damage. Cooldown now scales
+ - Added Doom!
+	* Devour: Increased bonus gold to 75/150/225/300. Creeps are now devoured faster.
+	* Scorched Earth: Increased damage/healing amount, move speed bonus, and aoe
+	* Lvl ? Death: Now always matches multiples of 3. Bonus damage increased (20/25/30/35% of max HP)
+	* Doom: Now always deals 66 damage per second. Duration rebalanced to 10/18/24. Doom is no longer deniable. Lv3 Aghanim`s Scepter Doom is now a irrevocable death sentence (deals 666 dps for 66.6 seconds).
+ - Added Ancient Apparition!
+	* Cold feet: Cast ragne, break range, damage, and stun duration increased
+	* Ice vortex: Increased slow and magic damage amp. AOE now scales, and manacost is a fixed 80
+	* Chilling touch: Damage and aoe increased. No longer reduces attack speed. Cooldown (30s) and manacost (110) are now fixed
+	* Ice blast: Duration is now a fixed 12 seconds (20 with aghanim). Aoe and kill threshold improved.
+ - Added Spirit breaker! (Thanks to community member Agroboy)
+	* Charge of Darkness: Charge speed, stun duration and bash radius (during charge) increased.
+	* Empowering Haste: Move speed bonus increased.
+	* Greater Bash: Move speed to damage ratio increased, bash chance and duration slightly increased. Cooldown removed.
+	* Nether Strike: Cooldown decreased. Cast point now scales. Aghanim`s aoe bash greatly increased.
+ - Added Ursa!
+	* Base move speed +20 (310 -> 330, same as luna)
+	* Earthshock: Slow strength, damage, and aoe increased
+	* Overpower: Attack count increased to 6/12/18/24. Duration increased to 20s. Manacost is now a fixed 45
+	* Fury swipes: Damage per stack increased to 15/25/35/45
+	* Enrage: Health to damage conversion rate increased to 8/11/14%. Duration is now the same as the cooldown on lv3.
+ - Added Gyrocopter!
+	* Rocket Barrage: rocket damage and aoe increased.
+	* Homing Missile: Damage slightly increased. Missile set up time, speed and maximum damage travek time all improve with levels.
+	* Flak Cannon: Cooldown and Duration are now 20s at all levels. Max shots increased to 4/6/8/10.
+	* Call Down: Aoe greatly increased,and global cast range. Second missile damage with Aghanim`s greatly increased.
+ - Added Alchemist!
+	* Acid Spray: Increased dps, aoe, and duration.
+	* Unstable concoction: can now charge for up to 12 seconds, for massive damage. The concoction explodes half a second after max charge time.
+	* Goblin`s Greed: Alchemist now literally swims in gold.
+	* Chemical Rage: Increased BAT reduction, hp/mana regen, and movespeed bonus. Chemical Rage now adds 200/400/600 bonus health.
+ - Added Invoker!
+	* Quas, Wex and Exort now go up to level 8;
+	* Invoke only has one level, learnable at level 2. 5 second cooldown, 30 manacost. Scepter version is 1 second cooldown, 0 manacost.
+	* Cold Snap: Freeze cooldown reduced to 0.7/0.6/0.5/0.4/0.3/0.2/0.1/0.0s
+	* Ghost walk: Self-slow and enemy slow improved. AOE from 400 to 600.
+	* Tornado: range and width increased. Damage slightly increased.
+	* EMP: Cast range now matches Tornado. Area of effect and mana burned to damage ratio increased.
+	* Alacrity: Cooldown now matches duration. Damage and Attack speed bonuses increased.
+	* Chaos Meteor: Goes longer, faster, and deals more damage.
+	* Sun Strike: More damage in a slightly larger AOE.
+	* Forge Spirits: Spirits now hit like minivans, from a mile away, and last literally forever.
+	* Ice Wall: Now burns you alive while you`re passing through.
+	* Deafening Blast: Now harder, better, faster and stronger.
