@@ -225,3 +225,19 @@ Changelog Alpha 0.4:
 	* Forge Spirits: Spirits now hit like minivans, from a mile away, and last literally forever.
 	* Ice Wall: Now burns you alive while you`re passing through.
 	* Deafening Blast: Now harder, better, faster and stronger.
+ - Added Silencer!
+ 	* Base Intelligence and growth increased. Intelligence steal radius is global.
+ 	* Curse of the Silent: duration increased to 9 seconds
+ 	* Glaives of Wisdom: Intelligence to damage conversion increased to 40/70/100/130%
+ 	* Last Word: Duration and damage increased. Cooldown reduced
+ 	* Global Silence: Duration increased
+ - Added Outworld Defenestrator!
+ 	* Arcane Orb: Mana to damage conversion increased
+ 	* Astral Imprisonment: Intelligence steal increased, and now lasts 5 minutes
+ 	* Essence Aura: Bonus mana and proc chance increased
+ 	* Sanity`s Eclipse: Damage multiplier, aoe, mana burn and cast range improved
+ - Added Lycan!
+ 	* Summon wolves: Wolves hit harder, faster, and are sturdier. They also now have a mini-bash at skill level 4.
+ 	* Howl: Improved duration, cooldown, and damage values
+ 	* Feral Impulse: Increased attack speed and damage values
+ 	* Shapeshift: Improved BAT, duration, critical damage, and added armor.
